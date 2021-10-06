@@ -2,8 +2,7 @@ package by.bsuir.lab1.classes;
 
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Basket basket = new Basket();
         basket.addBall(5, Color.Red);
         basket.addBall(6, Color.Red);
@@ -16,7 +15,5 @@ public class Main {
         System.out.println("Total weight of basket: " + totalWight);
         int totalBlue = basket.getNumBalls(Color.Blue);
         System.out.println("Num of blue balls: " + totalBlue);
-
     }
-
 }
